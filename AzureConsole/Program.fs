@@ -14,7 +14,6 @@ let writeToConsoleAndPromptToContinue (msg:string) =
   let key = Console.ReadKey ()
   ()
 
-// ADD THIS PART TO YOUR CODE
 let createDatabaseIfNotExists (client:DocumentClient) databaseName =
   try
     let readDb =
