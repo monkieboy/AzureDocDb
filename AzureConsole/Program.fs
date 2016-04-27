@@ -41,7 +41,5 @@ let getStartedDemo e (p:string) =
 
 [<EntryPoint>]
 let main args =
-  let endpoint = "https://1400501014.documents.azure.com:443/"
-  let primaryKey = "BkdWiGiAc8Rg75s9GeGlM5NXAvkdDTdCnydTQeACl3qEoIHYemtaGuamZKUse34pd3fIEnwsSbvdccB5l0Ynlw=="
   let resp, client = getStartedDemo endpoint primaryKey
   0
